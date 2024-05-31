@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Wise - SaaS Product Landing Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="app.css">
+    <!-- Add this script to your HTML file -->
+    <script>
+        document.addEventListener('scroll', function () {
+            const imgElement = document.querySelector('.hero-area .apple-managewise-img img');
+            const imgPosition = imgElement.getBoundingClientRect().top;
+
+            // Adjust this value based on when you want the effect to start
+            const scrollStart = window.innerHeight / 1.5;
+
+            if (imgPosition < scrollStart) {
+                imgElement.classList.add('rise-up');
+            } else {
+                imgElement.classList.remove('rise-up');
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <main>
+        <nav class="navbar topnav d-flex">
+            <img class="logo-1" src="images/logo.webp" alt="manage-wise-logo">
+            <img class="logo-2" src="images/logo-footer.webp" alt="manage-wise-logo">
+
+            <div class="topnav-right d-flex">
+                <ul class="d-flex">
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <span class="dot"></span>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <span class="dot"></span>
+                    <li>
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <span class="dot"></span>
+                    <li>
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                </ul>
+                <a class="buy-template-btn" href="https://templatesunit.lemonsqueezy.com/checkout/buy/181cb12c-ca54-44c6-bebd-46e3b656defc" target="_blank">Buy Template</a>
+            </div>
+
+            <button class="hamburger d-flex column">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </nav>
+
+        <section class="hero-area d-flex column">
+            <p class="title">👋 Welcome to manage wise!</p>
+            <h1>Empower your business with <span class="orange">Strategic</span> insights</h1>
+            <p class="statement">Powerful management platform designed to streamline your business operations, boost productivity, and drive success</p>
+            <div class="cta-btns">
+                <a class="get-started d-flex" href="https://templatesunit.lemonsqueezy.com/checkout/buy/181cb12c-ca54-44c6-bebd-46e3b656defc" target="_blank">Get Started <span>▶️</span> </a>
+                <a class="watch-demo d-flex" href="https://www.youtube.com/" target="_blank">Watch Demo ⏯️</a>
+            </div>
+            <div class="apple-managewise-img reveal">
+                <img src="images/image1.webp" alt="apple-managewise-admin-dashboard-preview">
+            </div>
+        </section>
+
+        <section class="features-area d-flex column" id="features">
+            <p class="title">🔥 premier features</p>
+            <h2>Discover our product's <span class="orange">Capabilities</span></h2>
+            <p class="statement">Don't settle for mediocrity - embrace the future of management with Manage Wise.</p>
+            <div class="boost-productivity column">
+                <div class="row-1">
+                    <span>⭐</span>
+                    <p>Boost productivity and streamline workflow with us. Enjoy our intuitive interface and robust features.</p>
+                </div>
+
+                <div class="feature-blocks row reveal">
+                    <div class="smart-task">
+                        <img src="images/image2.webp" alt="smart task">
+                        <div class="text d-flex column">
+                            <h3>Smart Task Management</h3>
+                            <p>Say goodbye to chaos with our smart task management system</p>
+                        </div>
+                    </div>
+
+                    <div class="upcoming-schedule">
+                        <img src="images/image3.webp" alt="upcoming schedule">
+                        <div class="text d-flex column">
+                            <h3>Flexible Scheduling</h3>
+                            <p>Stay productive with our flexible scheduling system</p>
+                        </div>
+                    </div>
+
+                    <div class="easy-communication">
+                        <img src="images/image4.webp" alt="easy communication">
+                        <div class="text d-flex column">
+                            <h3>Easy Communication</h3>
+                            <p>Collaborate seamlessly with your team in real-time</p>
+                        </div>
+                    </div>
+
+                    <div class="analytics">
+                        <img src="images/image5.webp" alt="analytics">
+                        <div class="text d-flex column">
+                            <h3>Analytics</h3>
+                            <p>Gain valuable insights with our advanced analytics feature</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="explore-area d-flex column reveal">
+            <p class="title">😆 and more...</p>
+            <h2>Explore an array of features that elevate your <span class="orange">Productivity</span> to new heights</h2>
+            <p class="statement">Discover the tools that will revolutionize the way you manage and optimize your operations</p>
+
+            <div class="cross-platform-compatibility d-flex column reveal">
+                <span>📱</span>
+                <h3>Cross-Platform Compatibility</h3>
+                <p>Enjoy the flexibility of cross-platform compatibility. Our product works seamlessly across desktop, web, and mobile devices, allowing you to work from your preferred device.</p>
+            </div>
+
+            <div class="essential-notifications d-flex column reveal">
+                <span>🔔</span>
+                <h3>Stay Informed with Essential Notifications</h3>
+                <p>Automate support from first customer contact to closing the ticket. Drastically improve time to resolution.Automate support from first customer contact to closing the ticket.</p>
+            </div>
+
+            <div class="secure-data d-flex column reveal">
+                <span>🎯</span>
+                <h3>Secure Data Encryption at all times</h3>
+                <p>Trust in our robust data encryption to keep your sensitive information safe and secure. Rest easy knowing your data is protected at all times.</p>
+            </div>
+
+            <div class="socials-area reveal">
+                <div class="social-icons">
+                    <span><img src="images/dropbox-removebg-preview.png" alt="dropbox"></span>
+                    <span><img src="images/gmail-removebg-preview.png" alt="gmail"></span>
+                    <span><img src="images/slack-removebg-preview.png" alt="slack"></span>
+                    <span><img src="images/github-removebg-preview.png" alt="github"></span>
+                    <span><img src="images/figma-removebg-preview.png" alt="figma"></span>
+                    <span><img src="images/notion-removebg-preview.png" alt="notion"></span>
+                    <span><img src="images/vimeo-removebg-preview.png" alt="vimeo"></span>
+                    <span><img src="images/zoom-removebg-preview.png" alt="zoom"></span>
+                    <span><img src="images/dropbox-removebg-preview.png" alt="dropbox"></span>
+                    <span><img src="images/github-removebg-preview.png" alt="github"></span>
+                </div>
+            </div>
+
+            <div class="enable-integrations d-flex column reveal">
+                <p class="title">🧰 integrations</p>
+                <h2>Enable <span class="orange">integrations</span> with other popular tools and platforms</h2>
+                <p class="statement">Seamlessly connect and amplify your workflow by enabling integration with a diverse array of widely-used tools and platforms.</p>
+
+                <img src="images/image6.webp" alt="connect an app">
+            </div>
+        </section>
+
+        <section class="faq d-flex column reveal" id="faq">
+            <p class="title">💇 FAQ</p>
+            <h2>Need <span class="orange"><br>Answers?</span></h2>
+            <p class="statement">Check out our most commonly asked questions below to find the information you need.</p>
+            
+            <div class="accordion reveal">
+                <div class="accordion-item">
+                    <button class="accordion-header d-flex" onclick="toggleAccordion(1)">What is Manage Wise and what does it offer? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>Manage Wise is a comprehensive management platform designed to streamline your business operations, enhance productivity, and drive success. It offers a range of features including task management, scheduling, communication tools, analytics and more.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header d-flex" onclick="toggleAccordion(2)">Is Manage Wise suitable for small businesses and larger enterprises alike? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>Yes, Manage Wise is designed to cater to the needs of both small businesses and larger enterprises. Its scalable features and customizable options make it versatile for various business sizes.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header d-flex" onclick="toggleAccordion(3)">Can I access Manage Wise from different devices and platforms? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>Yes, Manage Wise offers cross-platform compatibility, allowing you to use the platform seamlessly on desktops, web browsers, and mobile devices.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header d-flex" onclick="toggleAccordion(4)">What kind of support options do you offer to users? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>We provide responsive customer support via chat and email to assist you with any enquiries, issues or guidance you may need while using Manage Wise.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header d-flex" onclick="toggleAccordion(5)">How secure is the data stored within Manage Wise? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>Your data's security is a top priority. Manage Wise employs robust data encryption and follows industry best practices to ensure you sensitive information is safe and protected.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing d-flex column reveal" id="pricing">
+            <p class="title">💲 pricing</p>
+            <h2>Select your ideal <span class="orange">Pricing </span>plan</h2>
+            <p class="statement">At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs.</p>
+
+            <div class="price price-1 reveal">
+                <span class="free">FREE</span>
+                <p><span class="price-tag">$0</span> /month</p>
+                <ul class="d-flex column">
+                    <li>✅ &nbsp; Access to all basic features</li>
+                    <li>✅ &nbsp; Reporting and analytics</li>
+                    <li>✅ &nbsp; Up to 5 individual users</li>
+                    <li>✅ &nbsp; Chat and email support</li>
+                </ul>
+                
+                <a class="get-started-btn" href="https://templatesunit.lemonsqueezy.com/checkout/buy/181cb12c-ca54-44c6-bebd-46e3b656defc" target="_blank">Get started</a>
+            </div>
+
+            <div class="price price-2 reveal">
+                <span class="free">STANDARD</span>
+                <p><span class="price-tag">$25</span> /month</p>
+                <ul class="d-flex column">
+                    <li>✅ &nbsp; Access to all basic features</li>
+                    <li>✅ &nbsp; Reporting and analytics</li>
+                    <li>✅ &nbsp; Up to 5 individual users</li>
+                    <li>✅ &nbsp; Chat and email support</li>
+                    <li>✅ &nbsp; 3+ integrations</li>
+                    <li>✅ &nbsp; Account performance reporting</li>
+                </ul>
+                
+                <a class="get-started-btn" href="https://templatesunit.lemonsqueezy.com/checkout/buy/181cb12c-ca54-44c6-bebd-46e3b656defc" target="_blank">Get started</a>
+            </div>
+
+            <div class="price price-3 reveal">
+                <span class="free">BUSINESS</span>
+                <p><span class="price-tag">$42</span> /month</p>
+                <ul class="d-flex column">
+                    <li>✅ &nbsp; Access to all basic features</li>
+                    <li>✅ &nbsp; Reporting and analytics</li>
+                    <li>✅ &nbsp; Up to 5 individual users</li>
+                    <li>✅ &nbsp; Chat and email support</li>
+                    <li>✅ &nbsp; 3+ integrations</li>
+                </ul>
+                
+                <a class="get-started-btn" href="https://templatesunit.lemonsqueezy.com/checkout/buy/181cb12c-ca54-44c6-bebd-46e3b656defc" target="_blank">Get started</a>
+            </div>
+
+        </section>
+
+        <section class="testimonials reveal" id="testimonials">
+            <p class="title">💓 testimonials</p>
+            <h2>Hear from our <span class="orange">Satisfied </span>clients</h2>
+            <p class="statement">Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.</p>
+
+            <article class="d-flex">
+                <div class="testimony-cards">
+                    
+                    <div class="card d-flex column">
+                        <p class="testimony">"Manage Wise transformed our team's productivity. The intuitive interface and powerful features have made a significant impact on our daily operations"</p>
+                        <div class="username d-flex row">
+                            <img src="images/logo.webp" alt="user image">
+                            <p class="name">Emily <br> <span>Art Director</span></p>
+                        </div>
+                    </div>
+    
+                    <div class="card d-flex column">
+                        <p class="testimony">"The customer support team behind this product is exceptional. They have been incredibly responsive and helpful, addressing any questions or concerns promptly."</p>
+                        <div class="username d-flex row">
+                            <img src="images/logo.webp" alt="user image">
+                            <p class="name">Sarah <br> <span>Project Manager</span></p>
+                        </div>
+                    </div>
+    
+                    <div class="card d-flex column">
+                        <p class="testimony">"I can't imagine running my business without this product. The automation features have saved me hours of manual work, allowing me to focus on strategic tasks."</p>
+                        <div class="username d-flex row">
+                            <img src="images/logo.webp" alt="user image">
+                            <p class="name">Alex <br> <span>IT Manager</span></p>
+                        </div>
+                    </div>
+    
+                    <div class="card d-flex column">
+                        <p class="testimony">"Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."</p>
+                        <div class="username d-flex row">
+                            <img src="images/logo.webp" alt="user image">
+                            <p class="name">David <br> <span>Freelancer</span></p>
+                        </div>
+                    </div>
+    
+                </div>
+            </article>
+
+        </section>
+
+        <section class="dont-miss-container">
+            <div class="dont-miss d-flex column">
+                <p class="title">👋 don't miss out</p>
+                <h2>Unleash your  <span class="orange">Potential </span>with us</h2>
+                <p class="statement">Join our community of ambitious individuals and organizations eager to make a difference.</p>
+                
+                <a class="try-out-btn d-flex" href="https://templatesunit.lemonsqueezy.com/checkout/buy/181cb12c-ca54-44c6-bebd-46e3b656defc" target="_blank">Try out now <span>▶️</span></a>
+                <p class="happy-users"><span>200+</span> Happy users</p>
+                <img class="reveal" src="images/happy-users.jpg" alt="happy users">
+            </div>
+        </section>
+
+        <footer class="reveal">
+            <div class="manage-wise-footer-top">
+                <div class="logo">
+                    <img src="images/logo-footer.webp" alt="manage wise">
+                </div>
+                <ul class="quicklinks d-flex column">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="manage-wise-footer-bottom">
+                <div class="name d-flex">
+                    <p>&copy; 2022 ManageWise, Inc.</p>
+                </div>
+                <ul class="footer-socials d-flex row">
+                    <li><a href="#"><img class="img-1" src="images/instagram.png" alt="instagram"></a></li>
+                    <li><a href="#"><img class="img-2" src="images/twitter.avif" alt="twitter"></a></li>
+                    <li><a href="#"><img class="img-3" src="images/linkedin.png" alt="linkedin"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+
+    
+    <a class="made-in-framer-btn" title="Custom website builder for designers, agencies, and startups." href="https://framer.com" target="_blank">🌐 Made in Framer</a>
+
+    <script src="app.js"></script>
+</body>
+</html>
